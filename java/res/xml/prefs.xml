@@ -25,6 +25,13 @@
             />
 
     <CheckBoxPreference
+            android:key="obey_haptic"
+            android:title="@string/obey_haptic_feedback"
+            android:summary="@string/obey_haptic_feedback_summary"
+            android:persistent="true"
+            />
+
+    <CheckBoxPreference
             android:key="sound_on"
             android:title="@string/sound_on_keypress"
             android:persistent="true" 
@@ -59,6 +66,16 @@
             android:entryValues="@array/settings_key_modes_values"
             android:entries="@array/settings_key_modes"
             android:defaultValue="@string/settings_key_mode_auto"
+            />
+
+	<com.android.inputmethod.latin.DialogSeekBarPreference
+            android:key="long_press_delay"
+            android:title="@string/long_press_delay"
+            android:persistent="true"
+            min="100"
+            max="1000"
+            step="25"
+            android:defaultValue="@integer/config_long_press_key_timeout"
             />
 
     <ListPreference
