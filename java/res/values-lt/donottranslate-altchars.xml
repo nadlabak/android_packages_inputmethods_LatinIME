@@ -2,7 +2,7 @@
 <!--
 /*
 **
-** Copyright 2010, The Android Open Source Project
+** Copyright 2011, The Android Open Source Project
 **
 ** Licensed under the Apache License, Version 2.0 (the "License");
 ** you may not use this file except in compliance with the License.
@@ -18,22 +18,18 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="alternates_for_a">ā</string>
-    <string name="alternates_for_c">č</string>
-    <string name="alternates_for_e">3ē€</string>
-    <string name="alternates_for_g">ģ</string>
-    <string name="alternates_for_i">ī8</string>
-    <string name="alternates_for_k">ķ</string>
-    <string name="alternates_for_l">ļ</string>
-    <string name="alternates_for_n">ņ</string>
-    <string name="alternates_for_p">0</string>
-    <string name="alternates_for_o">ō9</string>
     <string name="alternates_for_q">1</string>
-    <string name="alternates_for_r">ŗ4</string>
-    <string name="alternates_for_s">š</string>
-    <string name="alternates_for_t">5</string>
-    <string name="alternates_for_u">ū7</string>
     <string name="alternates_for_w">2</string>
-    <string name="alternates_for_y">6</string>    
+    <string name="alternates_for_e">3ęė€</string>
+    <string name="alternates_for_r">4</string>
+    <string name="alternates_for_t">5</string>
+    <string name="alternates_for_y">6</string>
+    <string name="alternates_for_u">ųū7</string>
+    <string name="alternates_for_i">į8</string>
+    <string name="alternates_for_o">9</string>
+    <string name="alternates_for_p">0</string>
+    <string name="alternates_for_a">ą</string>
+    <string name="alternates_for_s">š</string>
     <string name="alternates_for_z">ž</string>
+    <string name="alternates_for_c">č</string>
 </resources>
