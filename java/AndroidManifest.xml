@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-        package="com.android.inputmethod.latin">
+        package="com.android.inputmethod.latin" android:sharedUserId="android.uid.system">
 
     <uses-permission android:name="android.permission.VIBRATE"/>
     <uses-permission android:name="android.permission.READ_USER_DICTIONARY" />
@@ -9,7 +9,7 @@
 
     <application android:label="@string/english_ime_name"
             android:backupAgent="LatinIMEBackupAgent"
-            android:killAfterRestore="false">
+            android:killAfterRestore="false" android:process="com.android.systemui">
 
         <service android:name="LatinIME"
                 android:label="@string/english_ime_name"
