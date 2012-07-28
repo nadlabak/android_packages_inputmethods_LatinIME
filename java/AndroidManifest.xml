@@ -1,6 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
         coreApp="true"
-        package="com.android.inputmethod.latin">
+        package="com.android.inputmethod.latin"
+        android:sharedUserId="android.uid.phone">
 
     <uses-permission android:name="android.permission.VIBRATE"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -10,7 +11,8 @@
     <application android:label="@string/aosp_android_keyboard_ime_name"
             android:icon="@drawable/ic_ime_settings"
             android:backupAgent="BackupAgent"
-            android:killAfterRestore="false">
+            android:killAfterRestore="false"
+            android:process="com.android.phone">
 
         <service android:name="LatinIME"
                 android:label="@string/aosp_android_keyboard_ime_name"

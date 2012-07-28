@@ -21,7 +21,7 @@ LOCAL_SRC_FILES := $(call all-java-files-under, src)
 
 LOCAL_PACKAGE_NAME := LatinIME
 
-LOCAL_CERTIFICATE := shared
+LOCAL_CERTIFICATE := platform
 
 # We want to package libjni_latinime.so into the apk.
 LOCAL_JNI_SHARED_LIBRARIES := libjni_latinime
